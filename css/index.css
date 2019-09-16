@@ -144,3 +144,27 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Index.html change/additions by R. Delgado */
+
+header nav {
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: flex-start; */
+}
+
+header nav a {
+    padding-right: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.main-image {
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-left: 0px;
+}
