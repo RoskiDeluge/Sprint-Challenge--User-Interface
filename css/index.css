@@ -145,7 +145,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/* Index.html change/additions by R. Delgado */
+/* index.html & about.html changes/additions by R. Delgado */
 
 header nav {
     display: flex;
@@ -165,6 +165,43 @@ header nav a {
     margin-bottom: 20px;
 }
 
+.about {
+    margin: 30px;
+}
+
 .logo {
     margin-left: 0px;
+}
+
+.main-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.content-box {
+    width: 375px;
+    margin: 10px;
+}
+
+.content-box h2 {
+    margin-top: 20px;
+}
+
+.work-together {
+    margin: 20px;
+}
+
+hr {
+    border: 1px dashed black;
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 10px 30px 10px 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    font-size: inherit;
 }
